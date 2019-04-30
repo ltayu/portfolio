@@ -1,4 +1,3 @@
-@@ -0,0 +1,380 @@
 {
  "name": "flare",
  "children": [
@@ -8,62 +7,57 @@
     {
      "name": "建筑",
      "children": [
-      {"name": "鼓楼", "value": 267},
-      {"name": "寨门", "value": 118},
-      {"name": "风雨桥", "value": 117},
-      {"name": "凉亭", "value": 256}
-     ]
-    },
-    {
-     "name": "植物",
-     "children": [
-      {"name": "金银花", "value": 3534},
-      {"name": "油菜花", "value": 5731},
-      {"name": "水稻", "value": 7840},
-      {"name": "竹根花", "value": 5914},
-      {"name": "糯米", "value": 3416}
+      {"name": "鼓楼", "value": 3938},
+      {"name": "风雨桥", "value": 3812},
+      {"name": "凉亭", "value": 6714},
+      {"name": "寨门", "value": 743},
+      {"name":"吊脚楼","value":001}
      ]
     },
     {
      "name": "河流",
      "children": [
-      {"name": "AspectRatioBanker", "value": 7074}
+      {"name": "龙底河", "value": 3534},
+      {"name": "玉带河", "value": 5731},
+      {"name": "坪坦河", "value": 7840},
+      {"name": "其他河流", "value": 5914},
+     ]
+    },
+    {
+     "name": "山峰",
+     "children": [
+      {"name": "万佛山景区", "value": 7074}
+      {"name": "神仙洞景区", "value": 7074}
      ]
     }
    ]
   },
   {
-   "name": "animate",
+   "name": "人文",
    "children": [
-    {"name": "Easing", "value": 17010},
-    {"name": "FunctionSequence", "value": 5842},
+    {"name": "技艺", "value": 17010},
+    {"name": "音乐", "value": 5842},
     {
-     "name": "interpolate",
+     "name": "技艺",
      "children": [
-      {"name": "ArrayInterpolator", "value": 1983},
-      {"name": "ColorInterpolator", "value": 2047},
-      {"name": "DateInterpolator", "value": 1375},
-      {"name": "Interpolator", "value": 8746},
-      {"name": "MatrixInterpolator", "value": 2202},
-      {"name": "NumberInterpolator", "value": 1382},
-      {"name": "ObjectInterpolator", "value": 1629},
-      {"name": "PointInterpolator", "value": 1675},
-      {"name": "RectangleInterpolator", "value": 2042}
+      {"name": "侗族大歌", "value": 1983},
+      {"name": "芦笙音乐", "value": 2047},
+      {"name": "侗戏", "value": 1375},
+      {"name": "侗锦技艺", "value": 8746},
+      {"name": "大戊梁歌会", "value": 2202},
+      {"name": "侗族琵歌", "value": 1382},
+      {"name": "侗族喉路歌", "value": 1629},
+      {"name": "剪纸", "value": 1675},
+      {"name": "侗族建筑营造技艺", "value": 2042}
+      {"name": "半坡岩饭节", "value": 2042}
+      {"name": "合拢宴", "value": 2042}
+      {"name": "哆耶舞", "value": 2042}
      ]
     },
-    {"name": "ISchedulable", "value": 1041},
-    {"name": "Parallel", "value": 5176},
-    {"name": "Pause", "value": 449},
-    {"name": "Scheduler", "value": 5593},
-    {"name": "Sequence", "value": 5534},
-    {"name": "Transition", "value": 9201},
-    {"name": "Transitioner", "value": 19975},
-    {"name": "TransitionEvent", "value": 1116},
-    {"name": "Tween", "value": 6006}
    ]
   },
-  {
-   "name": "data",
+  { 
+   "name": "物语",
    "children": [
     {
      "name": "converters",
